@@ -229,3 +229,10 @@ General workflow tools, not code-specific.
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)** — Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
 - **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)** — Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+
+### Agents
+
+Subagents the plugin ships alongside the skills above, invoked automatically by Claude Code (or explicitly via @-mention) once installed — every session, not just this repo.
+
+- **[matt-pocock-router](./agents/matt-pocock-router.md)** — Answers "which skill do I reach for?" with the matching `/skill-name`; never runs one itself.
+- **[matt-pocock-implementer](./agents/matt-pocock-implementer.md)** — Takes a scoped chunk of engineering work and drives it with `/tdd`, `/domain-modeling`, `/codebase-design`, and `/code-review`, off in its own context window.

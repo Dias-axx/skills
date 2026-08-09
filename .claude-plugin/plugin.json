@@ -18,6 +18,10 @@
     "domain-modeling",
     "productivity"
   ],
+  "agents": [
+    "./agents/matt-pocock-router.md",
+    "./agents/matt-pocock-implementer.md"
+  ],
   "skills": [
     "./skills/engineering/ask-matt",
     "./skills/engineering/diagnosing-bugs",
